@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Link as LinkS } from "react-scroll";
+
 
 export const Nav = styled.nav`
-  background-color: transparent;
+  background-color: #313131;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -28,7 +29,7 @@ export const NavBarContainer = styled.div`
   padding: 0 2.5rem;
 `;
 
-export const NavLogo = styled(Link)`
+export const NavLogo = styled(LinkS)`
   color: #64ffda;
   justify-self: flex-start;
   cursor: pointer;
@@ -69,18 +70,20 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled(Link)`
+export const NavLinks = styled(LinkS)`
   color: #848484;
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   padding: 0 1rem;
   cursor: pointer;
   height: 100%;
+  font-family: "Roboto Mono", monospace;
 
   span {
     color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
   }
 
   &:hover {
@@ -94,7 +97,7 @@ export const NavBarBtn = styled.button`
   color: #64ffda;
   border: 1px solid #64ffda;
   padding: 0.6rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
   border-radius: 5px;
   cursor: pointer;

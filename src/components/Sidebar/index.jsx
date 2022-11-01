@@ -9,11 +9,12 @@ import {
   SidebarMenu,
 } from "./styles";
 
-function Sidebar() {
+function Sidebar({ isOpen, handleToggler }) {
+
   return (
     <>
-      <SidebarContainer>
-        <Icon>
+      <SidebarContainer isOpen={isOpen} onClick={handleToggler}>
+        <Icon onClick={handleToggler}>
           <CloseIcon />
         </Icon>
         <SidebarWrapper>

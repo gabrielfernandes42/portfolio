@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Mono&display=swap');
+
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -6,4 +9,5 @@
 
 body {
     background-color: #313131;
+    font-family: 'Inter', sans-serif;
 }

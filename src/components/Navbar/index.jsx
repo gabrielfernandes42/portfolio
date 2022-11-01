@@ -11,12 +11,12 @@ import {
   NavBarBtn,
 } from "./styles";
 
-function Navbar() {
+function Navbar({ handleToggle}) {
   return (
     <Nav>
       <NavBarContainer>
         <NavLogo to="/">&lt;/Gf&gt;</NavLogo>
-        <MobileIcon>
+        <MobileIcon onClick={handleToggle}>
           <FaBars />
         </MobileIcon>
         <NavBarMenu>

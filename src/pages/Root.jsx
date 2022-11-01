@@ -1,17 +1,24 @@
 // import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useState } from "react";
+import HeroSection from "../components/HeroSection/HeroSection";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
 function Root() {
-  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen);
+  };
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/#" element={<Sidebar/>}/>
-        <Route path="/" element={<Navbar/>}/>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <Sidebar isOpen={isOpen} handleToggle={handleToggle} />
+      <Navbar handleToggle={handleToggle} />
+      <HeroSection />
+    </>
   );
 }
 
