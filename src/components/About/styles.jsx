@@ -17,8 +17,7 @@ export const AboutTitle = styled.div`
     display: flex;
     align-items: center;
     font-size: 28px;
-    margin-bottom: 2rem
-    
+    margin-bottom: 2rem;
   }
 
   h2:after {
@@ -37,11 +36,7 @@ export const AboutInfo = styled.div`
   & {
     display: flex;
     gap: 10rem;
-  }
-  p {
     margin-top: 1rem;
-    font-size: 19px;
-    color: #d0d0d0;
   }
 `;
 
@@ -49,5 +44,40 @@ export const AboutImage = styled.div`
   img {
     border-radius: 5px;
     max-width: 290px;
+  }
+`;
+
+export const AboutInfoText = styled.div`
+  p {
+    font-size: 19px;
+    color: #d0d0d0;
+    margin-top: 1rem;
+  }
+`;
+export const AboutInfoSkills = styled.div`
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0;
+    margin: 1rem 0 0;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: #d0d0d0;
+
+  }
+
+  li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #64ffda;
   }
 `;
