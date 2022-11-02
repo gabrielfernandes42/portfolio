@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   max-width: 1100px;
   margin: 0 auto;
-  padding: 5px 20px;
+
 `;
 
 export const TitleContainer = styled.div`

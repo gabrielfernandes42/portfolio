@@ -22,17 +22,17 @@ function Navbar({ handleToggle}) {
         <NavBarMenu>
           <NavItem>
             <NavLinks to="sobre">
-              <span>01</span>.Sobre
+              <span>01.</span>Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="sobre">
-              <span>02</span>.Projetos
+              <span>02.</span>Projetos
             </NavLinks>
           </NavItem>
           <NavItem>
             <NavLinks to="sobre">
-              <span>03</span>.Contato
+              <span>03.</span>Contato
             </NavLinks>
           </NavItem>
           <NavBarBtn>Currículo</NavBarBtn>
