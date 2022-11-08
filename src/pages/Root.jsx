@@ -4,6 +4,7 @@ import About from "../components/About/About";
 import HeroSection from "../components/HeroSection/HeroSection";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import ProjectSection from "../components/ProjectsSection/ProjectSection";
 import Sidebar from "../components/Sidebar";
 
 function Root() {
@@ -20,6 +21,7 @@ function Root() {
       <Navbar handleToggle={handleToggle} />
       <HeroSection />
       <About />
+      <ProjectSection />
     </>
   );
 }

@@ -11,9 +11,9 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(100, 255, 218, 1);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(100, 255, 218, 1);
-  box-shadow: 0px 1px 5px 1px rgba(100, 255, 218, 1);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(32 36 36);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(32 36 36);
+  box-shadow: 0px 1px 5px 1px rgba(32 36 36);
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
