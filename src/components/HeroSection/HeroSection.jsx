@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Title, TitleContainer, ButtonHero } from "./styles";
+import { ButtonPage } from "../Button/styled";
+import { Container, Title, TitleContainer } from "./styles";
 
 function HeroSection() {
   return (
@@ -8,15 +9,13 @@ function HeroSection() {
         <Title>
           <span>Olá, meu nome é</span>
           <h1>Gabriel Fernandes.</h1>
-          <h2>Eu construo sites para a web.</h2>
+          <h2>Eu sou web developer.</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             finibus lobortis erat vel tempus. Nunc cursus viverra ante vitae
             aliquam. Sed elementum tellus qui
           </p>
-          <ButtonHero onclick="location.href='mailto:vinoth@email.com';">
-            Vamos conversar!
-          </ButtonHero>
+          <ButtonPage>Vamos conversar!</ButtonPage>
         </Title>
       </TitleContainer>
     </Container>

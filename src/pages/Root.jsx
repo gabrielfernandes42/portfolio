@@ -1,6 +1,7 @@
 // import "./App.css";
 import { useState } from "react";
 import About from "../components/About/About";
+import Footer from "../components/Footer/Footer";
 import HeroSection from "../components/HeroSection/HeroSection";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -22,6 +23,7 @@ function Root() {
       <HeroSection />
       <About />
       <ProjectSection />
+      <Footer />
     </>
   );
 }

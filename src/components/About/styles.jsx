@@ -28,7 +28,7 @@ export const AboutTitle = styled.div`
     width: 130px;
     height: 1px;
     margin-left: 20px;
-    background-color: #64ffda;
+    background-color: #64ffda52;
   }
 `;
 
@@ -71,7 +71,6 @@ export const AboutInfoSkills = styled.div`
     font-family: "Roboto Mono", monospace;
     font-size: 15px;
     color: #d0d0d0;
-
   }
 
   li::before {

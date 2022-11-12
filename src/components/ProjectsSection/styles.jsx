@@ -27,7 +27,7 @@ export const ProjectsTitle = styled.div`
     width: 130px;
     height: 1px;
     margin-left: 20px;
-    background-color: #64ffda;
+    background-color: #64ffda52;
   }
 `;
 
@@ -36,5 +36,4 @@ export const ProjectsCard = styled.div`
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 2rem;
   list-style: none;
-  margin-bottom: 20rem;
 `;

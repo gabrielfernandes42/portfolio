@@ -8,10 +8,12 @@ function ProjectSection() {
       <ProjectsContainer>
         <ProjectsTitle>
           <h2>
-            <span>02.</span> Alguns projetos que criei.
+            <span>02.</span> Alguns projetos que criei
           </h2>
         </ProjectsTitle>
         <ProjectsCard>
+          <Cards/>
+          <Cards/>
           <Cards/>
           <Cards/>
           <Cards/>

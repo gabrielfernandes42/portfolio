@@ -11,7 +11,7 @@ import {
   Card,
 } from "./styles";
 
-function Cards() {
+function Cards({img, title, text}) {
   return (
     <>
       <CardsContainer>
