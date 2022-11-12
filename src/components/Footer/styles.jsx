@@ -30,7 +30,15 @@ export const FooterContent = styled.div`
   }
 `;
 
-export const Teste = styled.div`
+export const Copywriting = styled.div`
+  div {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    max-width: 1100px;
+    height: 1px;
+    background-color: hsla(0, 0%, 53.3%, 0.2);
+  }
+
   text-align: center;
   color: #d0d0d0;
   font-size: 14px;

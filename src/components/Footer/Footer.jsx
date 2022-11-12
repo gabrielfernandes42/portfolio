@@ -1,6 +1,6 @@
 import React from "react";
 import { ButtonPage } from "../Button/styled";
-import { FooterContainer, FooterContent, Teste } from "./styles";
+import { FooterContainer, FooterContent, Copywriting } from "./styles";
 
 function Footer() {
   return (
@@ -18,9 +18,10 @@ function Footer() {
           <ButtonPage>Entre em contato</ButtonPage>
         </FooterContent>
       </FooterContainer>
-      <Teste>
-        <span>&copy; 2022 Gabriel Fernandes.</span>
-      </Teste>
+      <Copywriting>
+        <div></div>
+        <p>&copy;2022 Gabriel Fernandes.</p>
+      </Copywriting>
     </>
   );
 }
