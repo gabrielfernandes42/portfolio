@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
+import { FaAlignRight } from "react-icons/fa";
 import {
   Nav,
   NavBarContainer,
@@ -17,7 +17,7 @@ function Navbar({ handleToggle}) {
       <NavBarContainer>
         <NavLogo to="/">&lt;/Gf&gt;</NavLogo>
         <MobileIcon onClick={handleToggle}>
-          <FaBars />
+          <FaAlignRight />
         </MobileIcon>
         <NavBarMenu>
           <NavItem>

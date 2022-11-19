@@ -15,7 +15,7 @@ function About() {
       <AboutContainer>
         <AboutTitle>
           <h2>
-            <span>01.</span> Um pouco sobre mim
+            <span>01.</span> Sobre mim
           </h2>
         </AboutTitle>
         <AboutInfo>

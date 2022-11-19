@@ -5,6 +5,22 @@ export const FooterContainer = styled.section`
   margin: 0 auto;
   padding: 10rem 0;
   text-align: center;
+
+  @media screen and (max-width: 1080px) {
+    & {
+      padding: 10rem 100px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    & {
+      padding: 10rem 50px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    & {
+      padding: 10rem 25px;
+    }
+  }
 `;
 
 export const FooterContent = styled.div`
@@ -50,3 +66,4 @@ export const Copywriting = styled.div`
     transition: 0.8s all ease;
   }
 `;
+

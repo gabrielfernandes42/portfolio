@@ -19,13 +19,13 @@ function Sidebar({ isOpen, handleToggler }) {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to="/sobre">
+            <SidebarLink onClick={handleToggler} to="/sobre">
               <span>01</span>.Sobre
             </SidebarLink>
-            <SidebarLink to="/projetos">
+            <SidebarLink onClick={handleToggler} to="/projetos">
               <span>02</span>.Projetos
             </SidebarLink>
-            <SidebarLink to="/contato">
+            <SidebarLink onClick={handleToggler} to="/contato">
               <span>03</span>.Contato
             </SidebarLink>
           </SidebarMenu>

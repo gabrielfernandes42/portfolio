@@ -8,6 +8,12 @@ export const EmailContainer = styled.div`
   right: 40px;
   z-index: 10;
   color: white;
+
+  @media screen and (max-width: 768px) {
+    & {
+      display: none;
+    }
+  }
 `;
 export const Email = styled.div`
   display: flex;

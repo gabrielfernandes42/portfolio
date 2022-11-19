@@ -1,6 +1,7 @@
 import React from "react";
+import { ButtonPage } from "../Button/styled";
 import Cards from "../Cards/Cards";
-import { ProjectsContainer, ProjectsTitle, ProjectsCard } from "./styles";
+import { ProjectsContainer, ProjectsTitle, ProjectsCard, SeeMore } from "./styles";
 
 function ProjectSection() {
   return (
@@ -12,13 +13,16 @@ function ProjectSection() {
           </h2>
         </ProjectsTitle>
         <ProjectsCard>
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          <Cards/>
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
         </ProjectsCard>
+        <SeeMore>
+          <ButtonPage>Ver todos</ButtonPage>
+        </SeeMore>
       </ProjectsContainer>
     </>
   );

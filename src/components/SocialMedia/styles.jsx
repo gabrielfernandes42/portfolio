@@ -12,6 +12,12 @@ export const SocialContainer = styled.div`
   left: 40px;
   right: auto;
   z-index: 10;
+
+  @media screen and (max-width: 768px)  {
+    & {
+      display: none;
+    }
+  }
 `;
 export const IconsList = styled.ul`
   display: flex;
