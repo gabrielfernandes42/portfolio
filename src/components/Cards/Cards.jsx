@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   CardsContainer,
   Cardslist,
@@ -11,7 +12,7 @@ import {
   Card,
 } from "./styles";
 
-function Cards({img, title, text}) {
+function Cards({ title, description, img, tags }) {
   return (
     <>
       <CardsContainer>
@@ -19,17 +20,18 @@ function Cards({img, title, text}) {
           <Card>
             <CardImg>
               <img src="https://i.imgur.com/oYiTqum.jpg" alt="" />
+              {/* {img} */}
             </CardImg>
             <CardOverlay>
               <CardHeader>
                 <CardHeaderText>
-                  <h3>Todolist</h3>
-                  <span>HTML | CSS | Javascript</span>
+                  <h3>{title}</h3>
+                  <span>{tags}</span>
                 </CardHeaderText>
                 <CardIcons></CardIcons>
               </CardHeader>
               <CardDescription>
-                <p> Simples Todolist para praticar HTML, CSS e Javascript.</p>
+                <p> {description}</p>
               </CardDescription>
             </CardOverlay>
           </Card>

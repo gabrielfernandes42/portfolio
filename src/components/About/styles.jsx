@@ -113,6 +113,7 @@ export const AboutInfoSkills = styled.div`
     ul {
       grid-template-columns: repeat(2, minmax(140px, 200px));
       gap: 0px 1.5rem;
+      margin-bottom: 4rem;
     }
   }
 

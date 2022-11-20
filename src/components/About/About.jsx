@@ -41,6 +41,7 @@ function About() {
                 <li>Javascript</li>
                 <li>React JS</li>
                 <li>Styled-componenets</li>
+                <li>Redux</li>
                 <li>Bootstrap</li>
                 <li>Git</li>
               </ul>
