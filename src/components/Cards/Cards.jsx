@@ -19,8 +19,7 @@ function Cards({ title, description, img, tags }) {
         <Cardslist>
           <Card>
             <CardImg>
-              <img src="https://i.imgur.com/oYiTqum.jpg" alt="" />
-              {/* {img} */}
+              <img src={img} alt={title} />
             </CardImg>
             <CardOverlay>
               <CardHeader>

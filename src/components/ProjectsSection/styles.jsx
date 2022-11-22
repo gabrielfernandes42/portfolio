@@ -57,7 +57,7 @@ export const ProjectsTitle = styled.div`
   }
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 2rem;

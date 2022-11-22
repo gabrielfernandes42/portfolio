@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 // Container
-export const CardsContainer = styled.ul`
+export const CardsContainer = styled.li`
   list-style: none;
 `;
 
 //div list
-export const Cardslist = styled.li``;
+export const Cardslist = styled.div``;
 
 //Overlay
 export const CardOverlay = styled.div`
@@ -38,7 +38,6 @@ export const CardHeader = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  gap: 2rem;
   padding: 2rem;
   background-color: #1a1a1b;
   transform: translateY(-100%);
