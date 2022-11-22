@@ -35,7 +35,8 @@ export const TitleContainer = styled.div`
 export const Title = styled.div`
   span {
     color: #64ffda;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 100;
     margin-bottom: 7px;
     display: block;
     font-family: "Roboto Mono", monospace;

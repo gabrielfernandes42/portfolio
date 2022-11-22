@@ -10,6 +10,8 @@ import {
   CardIcons,
   CardDescription,
   Card,
+  ExternalLink,
+  GitLink,
 } from "./styles";
 
 function Cards({ title, description, img, tags }) {
@@ -26,8 +28,11 @@ function Cards({ title, description, img, tags }) {
                 <CardHeaderText>
                   <h3>{title}</h3>
                   <span>{tags}</span>
+                  <CardIcons>
+                    <ExternalLink></ExternalLink>
+                    <GitLink></GitLink>
+                  </CardIcons>
                 </CardHeaderText>
-                <CardIcons></CardIcons>
               </CardHeader>
               <CardDescription>
                 <p> {description}</p>

@@ -33,6 +33,7 @@ export const AboutTitle = styled.div`
     display: flex;
     align-items: center;
     font-size: 28px;
+    font-weight: 100;
     margin-bottom: 2rem;
   }
 
@@ -82,7 +83,7 @@ export const AboutImage = styled.div`
   text-align: center;
   img {
     border-radius: 5px;
-    max-width: 228px;
+    max-width: 67%;
   }
 `;
 
@@ -90,7 +91,6 @@ export const AboutInfoText = styled.div`
   p {
     font-size: 19px;
     color: #d0d0d0;
-    margin-top: 1rem;
   }
 
   @media screen and (max-width: 1080px) {

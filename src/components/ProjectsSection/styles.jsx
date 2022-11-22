@@ -31,6 +31,7 @@ export const ProjectsTitle = styled.div`
     display: flex;
     align-items: center;
     font-size: 28px;
+    font-weight: 100;
     margin-bottom: 2rem;
   }
 

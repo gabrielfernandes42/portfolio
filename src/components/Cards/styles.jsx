@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaGithub, FaLink } from "react-icons/fa";
 
 // Container
 export const CardsContainer = styled.li`
@@ -71,12 +72,10 @@ export const CardImg = styled.div`
 `;
 
 export const CardHeaderText = styled.div``;
+
 export const CardIcons = styled.div`
   color: white;
-
-  &:hover {
-    color: #64ffda;
-  }
+  margin-top: 0.5rem;
 `;
 export const CardDescription = styled.div`
   p {
@@ -85,5 +84,21 @@ export const CardDescription = styled.div`
     display: -webkit-box;
     -webkit-line-clamp: 3;
     overflow: hidden;
+  }
+`;
+
+export const ExternalLink = styled(FaLink)`
+  margin-right: 10px;
+  font-size: 17px;
+  &:hover {
+    color: #64ffda;
+    transition: 0.2s ease-in-out;
+  }
+`;
+export const GitLink = styled(FaGithub)`
+  font-size: 17px;
+  &:hover {
+    color: #64ffda;
+    transition: 0.2s ease-in-out;
   }
 `;

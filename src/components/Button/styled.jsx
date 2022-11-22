@@ -5,6 +5,7 @@ export const ButtonPage = styled.button`
   border: 1px solid #64ffda;
   padding: 0.8rem 1.8rem;
   font-size: 1rem;
+  font-weight: 100;
   color: #64ffda;
   border-radius: 5px;
   margin: 1rem 0;

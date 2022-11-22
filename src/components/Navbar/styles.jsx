@@ -1,7 +1,6 @@
 import styled from "styled-components";
 // import { Link as LinkR } from "react-router-dom";
 
-
 export const Nav = styled.nav`
   background-color: #313131;
   height: 80px;
@@ -75,7 +74,8 @@ export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 100;
   padding: 0 1rem;
   cursor: pointer;
   height: 100%;
@@ -83,7 +83,7 @@ export const NavLinks = styled.div`
 
   span {
     color: #64ffda;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
   }
 
   &:hover {
