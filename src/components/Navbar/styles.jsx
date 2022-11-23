@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-// import { Link as LinkR } from "react-router-dom";
 
 export const Nav = styled.nav`
   background-color: #313131;
@@ -69,7 +69,7 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled.div`
+export const NavLinks = styled(Link)`
   color: #848484;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@ export const NavLinks = styled.div`
   }
 `;
 
-export const NavBarBtn = styled.button`
+export const NavBarBtn = styled.a`
   background-color: transparent;
   color: #64ffda;
   border: 1px solid #64ffda;

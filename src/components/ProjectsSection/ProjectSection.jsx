@@ -30,7 +30,12 @@ function ProjectSection() {
           ))}
         </ProjectsCard>
         <SeeMore>
-          <ButtonPage>Ver todos</ButtonPage>
+          <ButtonPage
+            href="https://github.com/gabrielfernandes42?tab=repositories"
+            target="_blank"
+          >
+            Ver todos
+          </ButtonPage>
         </SeeMore>
       </ProjectsContainer>
     </>

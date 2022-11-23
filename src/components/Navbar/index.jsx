@@ -21,17 +21,17 @@ function Navbar({ handleToggle}) {
         </MobileIcon>
         <NavBarMenu>
           <NavItem>
-            <NavLinks to="sobre">
+            <NavLinks to="/about" >
               <span>01.</span>Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="sobre">
+            <NavLinks to="projects">
               <span>02.</span>Projetos
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="sobre">
+            <NavLinks to="contact">
               <span>03.</span>Contato
             </NavLinks>
           </NavItem>

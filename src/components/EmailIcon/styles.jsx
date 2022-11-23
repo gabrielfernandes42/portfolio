@@ -15,11 +15,14 @@ export const EmailContainer = styled.div`
     }
   }
 `;
-export const Email = styled.div`
+export const Email = styled.a`
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  & {
+    color: white;
+  }
 
   p {
     margin: 20px auto;

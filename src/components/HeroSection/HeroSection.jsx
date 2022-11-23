@@ -15,7 +15,7 @@ function HeroSection() {
             finibus lobortis erat vel tempus. Nunc cursus viverra ante vitae
             aliquam. Sed elementum tellus qui
           </p>
-          <ButtonPage>Vamos conversar!</ButtonPage>
+          <ButtonPage href="mailto:email@provedor.com.br">Vamos conversar!</ButtonPage>
         </Title>
       </TitleContainer>
     </Container>

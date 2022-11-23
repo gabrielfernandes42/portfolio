@@ -13,7 +13,7 @@ export const SocialContainer = styled.div`
   right: auto;
   z-index: 10;
 
-  @media screen and (max-width: 768px)  {
+  @media screen and (max-width: 768px) {
     & {
       display: none;
     }
@@ -47,11 +47,7 @@ export const Icon = styled.li`
     transform: translateY(-3px);
   }
 `;
-export const GitIcon = styled(FaGithub)`
-  &::after {
-    content: "asdasd";
-  }
-`;
+export const GitIcon = styled(FaGithub)``;
 export const LinkedinIcon = styled(FaLinkedinIn)``;
 export const SendBoxIcon = styled(FaRegSquare)``;
 export const InstagramIcon = styled(FaInstagram)``;

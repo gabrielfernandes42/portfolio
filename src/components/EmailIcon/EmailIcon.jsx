@@ -5,7 +5,7 @@ function EmailIcon() {
   return (
     <>
       <EmailContainer>
-        <Email>
+        <Email href="mailto:email@provedor.com.br">
           <p>gabrielfernandes254@gmail.com</p>
         </Email>
       </EmailContainer>

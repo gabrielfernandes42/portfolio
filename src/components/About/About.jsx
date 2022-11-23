@@ -34,7 +34,7 @@ function About() {
               ullamcorper, quis blandit libero pharetra.
             </p>
             <AboutInfoSkills>
-              <p>Minhas Habilidades</p>
+              <p>Linguagens e ferramentas:</p>
               <ul>
                 <li>HTML5</li>
                 <li>CSS</li>

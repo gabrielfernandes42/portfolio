@@ -1,6 +1,7 @@
+// import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const ButtonPage = styled.button`
+export const ButtonPage = styled.a`
   background-color: transparent;
   border: 1px solid #64ffda;
   padding: 0.8rem 1.8rem;

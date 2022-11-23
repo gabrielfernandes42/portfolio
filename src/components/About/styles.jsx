@@ -34,7 +34,7 @@ export const AboutTitle = styled.div`
     align-items: center;
     font-size: 28px;
     font-weight: 100;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   h2:after {
@@ -84,6 +84,7 @@ export const AboutImage = styled.div`
   img {
     border-radius: 5px;
     max-width: 67%;
+    margin-top: 1rem;
   }
 `;
 
@@ -91,6 +92,7 @@ export const AboutInfoText = styled.div`
   p {
     font-size: 19px;
     color: #d0d0d0;
+    margin-top: 1rem;
   }
 
   @media screen and (max-width: 1080px) {

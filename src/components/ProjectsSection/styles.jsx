@@ -63,6 +63,7 @@ export const ProjectsCard = styled.ul`
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   gap: 2rem;
   list-style: none;
+  margin-top: 1rem;
 
   & {
     @media (max-width: 1080px) {
@@ -75,4 +76,3 @@ export const SeeMore = styled.div`
   text-align: center;
   margin-top: 1.5rem;
 `;
-

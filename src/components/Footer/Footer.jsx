@@ -7,7 +7,7 @@ function Footer() {
     <>
       <FooterContainer>
         <FooterContent>
-          <span>04.Qual próximo passo? </span>
+          <span>03.Qual próximo passo? </span>
           <h2>Entre em contato</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
@@ -15,7 +15,7 @@ function Footer() {
             soluta officia possimus molestiae voluptatum, recusandae dolore
             praesentium cumque perspiciatis illo?
           </p>
-          <ButtonPage>Entre em contato</ButtonPage>
+          <ButtonPage href="mailto:email@provedor.com.br">Entre em contato</ButtonPage>
         </FooterContent>
       </FooterContainer>
       <Copywriting>
