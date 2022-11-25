@@ -8,8 +8,8 @@ function HeroSection() {
       <TitleContainer>
         <Title>
           <span>Olá, meu nome é</span>
-          <h1>Gabriel Fernandes.</h1>
-          <h2>Eu sou web developer.</h2>
+          <h1>Gabriel Fernandes</h1>
+          <h2>Eu sou web developer</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             finibus lobortis erat vel tempus. Nunc cursus viverra ante vitae

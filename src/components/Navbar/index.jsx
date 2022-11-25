@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAlignRight } from "react-icons/fa";
+import resume from '../../assets/pdf/resume.pdf'
 import {
   Nav,
   NavBarContainer,
@@ -11,7 +12,7 @@ import {
   NavBarBtn,
 } from "./styles";
 
-function Navbar({ handleToggle}) {
+function Navbar({ handleToggle }) {
   return (
     <Nav>
       <NavBarContainer>
@@ -21,7 +22,7 @@ function Navbar({ handleToggle}) {
         </MobileIcon>
         <NavBarMenu>
           <NavItem>
-            <NavLinks to="/about" >
+            <NavLinks to="/about">
               <span>01.</span>Sobre
             </NavLinks>
           </NavItem>
@@ -35,7 +36,13 @@ function Navbar({ handleToggle}) {
               <span>03.</span>Contato
             </NavLinks>
           </NavItem>
-          <NavBarBtn>Currículo</NavBarBtn>
+          <NavBarBtn
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Currículo
+          </NavBarBtn>
         </NavBarMenu>
       </NavBarContainer>
     </Nav>

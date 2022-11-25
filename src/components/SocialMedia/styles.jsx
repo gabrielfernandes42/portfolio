@@ -1,10 +1,4 @@
 import styled from "styled-components";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaRegSquare,
-  FaInstagram,
-} from "react-icons/fa";
 
 export const SocialContainer = styled.div`
   position: fixed;
@@ -20,13 +14,16 @@ export const SocialContainer = styled.div`
   }
 `;
 export const IconsList = styled.ul`
+  a {
+    color: white;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
   padding: 0;
   font-size: 20px;
-  color: white;
   list-style: none;
 
   &::after {
@@ -40,14 +37,10 @@ export const IconsList = styled.ul`
 `;
 export const Icon = styled.li`
   padding: 8px;
-  &:hover {
+  a:hover {
     color: #64ffda;
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     transform: translateY(-3px);
   }
 `;
-export const GitIcon = styled(FaGithub)``;
-export const LinkedinIcon = styled(FaLinkedinIn)``;
-export const SendBoxIcon = styled(FaRegSquare)``;
-export const InstagramIcon = styled(FaInstagram)``;
