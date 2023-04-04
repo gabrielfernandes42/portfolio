@@ -28,7 +28,7 @@ export const NavBarContainer = styled.div`
   padding: 0 2.5rem;
 `;
 
-export const NavLogo = styled.a`
+export const NavLogo = styled(Link)`
   color: #64ffda;
   justify-self: flex-start;
   cursor: pointer;

@@ -4,7 +4,7 @@ import { Container, Title, TitleContainer } from "./styles";
 
 function HeroSection() {
   return (
-    <Container>
+    <Container id="hero">
       <TitleContainer>
         <Title>
           <span>Olá, meu nome é</span>

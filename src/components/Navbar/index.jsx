@@ -16,7 +16,13 @@ function Navbar({ handleToggle }) {
   return (
     <Nav>
       <NavBarContainer>
-        <NavLogo to="/" spy={true} smooth={true} offset={50} duration={500}>
+        <NavLogo
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
           &lt;/Gf&gt;
         </NavLogo>
         <MobileIcon onClick={handleToggle}>
