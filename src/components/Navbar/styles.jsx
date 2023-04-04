@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
@@ -69,7 +69,7 @@ export const NavItem = styled.li`
   height: 80px;
 `;
 
-export const NavLinks = styled.a`
+export const NavLinks = styled(Link)`
   color: #848484;
   display: flex;
   align-items: center;
