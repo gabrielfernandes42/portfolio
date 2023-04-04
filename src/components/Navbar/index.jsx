@@ -16,23 +16,23 @@ function Navbar({ handleToggle }) {
   return (
     <Nav>
       <NavBarContainer>
-        <NavLogo to="/">&lt;/Gf&gt;</NavLogo>
+        <NavLogo href="#">&lt;/Gf&gt;</NavLogo>
         <MobileIcon onClick={handleToggle}>
           <FaAlignRight />
         </MobileIcon>
         <NavBarMenu>
           <NavItem>
-            <NavLinks to="/about">
+            <NavLinks href="#about">
               <span>01.</span>Sobre
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="projects">
+            <NavLinks href="#projects">
               <span>02.</span>Projetos
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="contact">
+            <NavLinks href="#contact">
               <span>03.</span>Contato
             </NavLinks>
           </NavItem>

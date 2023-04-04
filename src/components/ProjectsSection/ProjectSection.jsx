@@ -12,7 +12,7 @@ import {
 function ProjectSection() {
   return (
     <>
-      <ProjectsContainer>
+      <ProjectsContainer id="projects">
         <ProjectsTitle>
           <h2>
             <span>02.</span> Alguns projetos que criei

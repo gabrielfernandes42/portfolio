@@ -5,7 +5,7 @@ import { FooterContainer, FooterContent, Copywriting } from "./styles";
 function Footer() {
   return (
     <>
-      <FooterContainer>
+      <FooterContainer id="contact">
         <FooterContent>
           <span>03.Qual próximo passo? </span>
           <h2>Entre em contato</h2>

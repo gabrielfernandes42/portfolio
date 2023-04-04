@@ -12,7 +12,7 @@ import {
 function About() {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id="about">
         <AboutTitle>
           <h2>
             <span>01.</span> Sobre mim
