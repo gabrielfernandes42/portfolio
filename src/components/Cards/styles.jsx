@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 // Container
 export const CardsContainer = styled.li`

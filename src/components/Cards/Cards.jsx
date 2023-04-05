@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
 
 import {
   CardsContainer,
