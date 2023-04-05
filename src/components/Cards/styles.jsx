@@ -87,7 +87,7 @@ export const CardDescription = styled.div`
   }
 `;
 
-export const ExternalLink = styled(FaLink)`
+export const ExternalLink = styled.a`
   margin-right: 10px;
   font-size: 17px;
   &:hover {

@@ -26,6 +26,7 @@ function ProjectSection() {
               description={project.description}
               img={project.img}
               tags={project.tags}
+              link={project.link}
             />
           ))}
         </ProjectsCard>

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub, FaLink } from "react-icons/fa";
 
 import {
   CardsContainer,
@@ -14,7 +15,7 @@ import {
   GitLink,
 } from "./styles";
 
-function Cards({ title, description, img, tags }) {
+function Cards({ title, description, img, tags, link  }) {
   return (
     <>
       <CardsContainer>
@@ -29,7 +30,11 @@ function Cards({ title, description, img, tags }) {
                   <h3>{title}</h3>
                   <span>{tags}</span>
                   <CardIcons>
-                    <ExternalLink></ExternalLink>
+                    <ExternalLink>
+                      <a href={link} target="_blank" rel="noreferrer">
+                        <FaLink />
+                      </a>
+                    </ExternalLink>
                     <GitLink></GitLink>
                   </CardIcons>
                 </CardHeaderText>

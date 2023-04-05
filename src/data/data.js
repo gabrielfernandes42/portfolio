@@ -6,6 +6,7 @@ export const data = {
       description: "Pokedex com consumo de API",
       tags: [" HTML ", "|", " CSS ", "|", " Javascript ", "|", " API "],
       img: require("../assets/img/pokedexjs.jpg"),
+      link: "https://chic-dieffenbachia-477c41.netlify.app/"
     },
 
     {
@@ -24,6 +25,8 @@ export const data = {
         " Flask ",
       ],
       img: require("../assets/img/geracao.png"),
+      link: "https://geracaoconquista.com.br/"
+
     },
     {
       id: 3,
@@ -31,6 +34,7 @@ export const data = {
       description: "Simples to do list para praticar javascript",
       tags: [" HTML ", "|", " CSS ", "|", " Javascript "],
       img: require("../assets/img/todo.jpg"),
+      link: "https://spontaneous-profiterole-ef03d0.netlify.app/"
     },
     {
       id: 4,

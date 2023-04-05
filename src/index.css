@@ -4,12 +4,17 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-
 }
 
 a {
   text-decoration: none;
   display: inline-block;
+  color: white;
+}
+
+a:hover {
+  color: #64ffda;
+  transition: 0.2s ease-in-out;
 }
 
 body {
@@ -17,12 +22,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #D0D0D0;
+  background-color: #d0d0d0;
   border-radius: 10px;
 }
