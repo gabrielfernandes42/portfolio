@@ -9,23 +9,22 @@ import {
   SidebarMenu,
 } from "./styles";
 
-function Sidebar({ isOpen, handleToggler }) {
-
+function Sidebar({ isOpen, handleToggler, closeButon }) {
   return (
     <>
       <SidebarContainer isOpen={isOpen} onClick={handleToggler}>
         <Icon onClick={handleToggler}>
-          <CloseIcon />
+          <CloseIcon onClick={closeButon} />
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink onClick={handleToggler} to="/sobre">
+            <SidebarLink onClick={closeButon} to="/sobre">
               <span>01</span>.Sobre
             </SidebarLink>
-            <SidebarLink onClick={handleToggler} to="/projetos">
+            <SidebarLink onClick={closeButon} to="/projetos">
               <span>02</span>.Projetos
             </SidebarLink>
-            <SidebarLink onClick={handleToggler} to="/contato">
+            <SidebarLink onClick={closeButon} to="/contato">
               <span>03</span>.Contato
             </SidebarLink>
           </SidebarMenu>

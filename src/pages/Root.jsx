@@ -17,15 +17,21 @@ function Root() {
     console.log(isOpen);
   };
 
+  const closeButon = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <Routes>
         <Route path="/" element={<Navbar handleToggle={handleToggle} />} />
-        <Route
-          path="/"
-          element={<Sidebar isOpen={isOpen} handleToggle={handleToggle} />}
-        />
       </Routes>
+
+      <Sidebar
+        isOpen={isOpen}
+        handleToggle={handleToggle}
+        closeButon={closeButon}
+      />
 
       <HeroSection />
       <About />
