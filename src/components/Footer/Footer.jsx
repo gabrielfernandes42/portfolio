@@ -15,12 +15,14 @@ function Footer() {
             soluta officia possimus molestiae voluptatum, recusandae dolore
             praesentium cumque perspiciatis illo?
           </p>
-          <ButtonPage href="mailto:email@provedor.com.br">Entre em contato</ButtonPage>
+          <ButtonPage href="mailto:email@provedor.com.br">
+            Entre em contato
+          </ButtonPage>
         </FooterContent>
       </FooterContainer>
       <Copywriting>
         <div></div>
-        <p>&copy;2022 Gabriel Fernandes.</p>
+        <p>&copy;2024 Gabriel Fernandes.</p>
       </Copywriting>
     </>
   );

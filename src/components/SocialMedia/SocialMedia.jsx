@@ -30,7 +30,7 @@ function SocialMedia() {
               <FaLinkedinIn />
             </a>
           </Icon>
-          <Icon>
+          {/* <Icon>
             <a
               href="https://codesandbox.io/dashboard/recent?workspace=7233f6a9-e58b-439e-8a5a-3cb2767af523"
               target="_blank"
@@ -38,8 +38,8 @@ function SocialMedia() {
             >
               <FaRegSquare />
             </a>
-          </Icon>
-          <Icon>
+          </Icon> */}
+          {/* <Icon>
             <a
               href="https://www.instagram.com/gabriel_fer42/"
               target="_blank"
@@ -47,7 +47,7 @@ function SocialMedia() {
             >
               <FaInstagram />
             </a>
-          </Icon>
+          </Icon> */}
         </IconsList>
       </SocialContainer>
     </>
