@@ -23,15 +23,29 @@ function Sidebar({ isOpen, handleToggler, closeButon }) {
               to="about"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-50}
               duration={500}
             >
               <span>01</span>.Sobre
             </SidebarLink>
-            <SidebarLink onClick={closeButon} to="/projetos">
+            <SidebarLink
+              onClick={closeButon}
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
               <span>02</span>.Projetos
             </SidebarLink>
-            <SidebarLink onClick={closeButon} to="/contato">
+            <SidebarLink
+              onClick={closeButon}
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-10}
+              duration={500}
+            >
               <span>03</span>.Contato
             </SidebarLink>
           </SidebarMenu>
