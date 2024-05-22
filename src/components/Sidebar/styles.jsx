@@ -63,7 +63,7 @@ export const SidebarLink = styled(Link)`
   }
 `;
 
-export const SideBtnWrapper = styled.div`
+export const SideBtnWrapper = styled.a`
   color: #64ffda;
   display: flex;
   align-items: center;

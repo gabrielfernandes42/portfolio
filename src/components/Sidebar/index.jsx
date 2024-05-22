@@ -1,4 +1,6 @@
 import React from "react";
+import resume from "../../assets/pdf/resume.pdf";
+
 import {
   SidebarContainer,
   Icon,
@@ -9,7 +11,7 @@ import {
   SidebarMenu,
 } from "./styles";
 
-function Sidebar({ isOpen, handleToggler, closeButon }) {
+function Sidebar({ isOpen, closeButon }) {
   return (
     <>
       <SidebarContainer isOpen={isOpen} onClick={closeButon}>
@@ -49,7 +51,9 @@ function Sidebar({ isOpen, handleToggler, closeButon }) {
               <span>03</span>.Contato
             </SidebarLink>
           </SidebarMenu>
-          <SideBtnWrapper to="/">Currículo</SideBtnWrapper>
+          <SideBtnWrapper href={resume} target="_blank" rel="noreferrer">
+            Currículo
+          </SideBtnWrapper>
         </SidebarWrapper>
       </SidebarContainer>
     </>
