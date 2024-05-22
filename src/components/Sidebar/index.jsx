@@ -12,13 +12,20 @@ import {
 function Sidebar({ isOpen, handleToggler, closeButon }) {
   return (
     <>
-      <SidebarContainer isOpen={isOpen} onClick={handleToggler}>
-        <Icon onClick={handleToggler}>
+      <SidebarContainer isOpen={isOpen} onClick={closeButon}>
+        <Icon>
           <CloseIcon onClick={closeButon} />
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink onClick={closeButon} to="/sobre">
+            <SidebarLink
+              onClick={closeButon}
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
               <span>01</span>.Sobre
             </SidebarLink>
             <SidebarLink onClick={closeButon} to="/projetos">

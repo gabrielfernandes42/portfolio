@@ -1,11 +1,6 @@
 import React from "react";
 import { SocialContainer, IconsList, Icon } from "./styles";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaRegSquare,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaCodepen } from "react-icons/fa";
 
 function SocialMedia() {
   return (
@@ -30,24 +25,15 @@ function SocialMedia() {
               <FaLinkedinIn />
             </a>
           </Icon>
-          {/* <Icon>
+          <Icon>
             <a
-              href="https://codesandbox.io/dashboard/recent?workspace=7233f6a9-e58b-439e-8a5a-3cb2767af523"
+              href="https://codepen.io/collection/VYNOEG"
               target="_blank"
               rel="noreferrer"
             >
-              <FaRegSquare />
+              <FaCodepen />
             </a>
-          </Icon> */}
-          {/* <Icon>
-            <a
-              href="https://www.instagram.com/gabriel_fer42/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram />
-            </a>
-          </Icon> */}
+          </Icon>
         </IconsList>
       </SocialContainer>
     </>
