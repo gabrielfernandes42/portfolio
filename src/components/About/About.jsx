@@ -21,17 +21,12 @@ function About() {
         <AboutInfo>
           <AboutInfoText>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              finibus lobortis erat vel tempus. Nunc cursus viverra ante vitae
-              aliquam. Sed elementum tellus quis nunc tincidunt, sit amet
-              laoreet neque molestie. Nullam mauris nunc, eleifend sit amet urna
-              in, fermentum fermentum nunc. Donec molestie pellentesque tempus.
-              Donec tristique magna vitae dolor pulvinar blandit. Aliquam
-              consectetur elit ac mauris eleifend, in auctor tortor fringilla.
-              Praesent sit amet risus id nisl gravida consequat ut nec ante.
-              Nunc dignissim commodo auctor. Mauris sit amet arcu urna. Nunc sed
-              aliquam dui, at volutpat lacus. Morbi condimentum dui id ligula
-              ullamcorper, quis blandit libero pharetra.
+              Sou um desenvolvedor front-end apaixonado por criar interfaces de
+              usuário intuitivas e funcionais. Minha jornada na programação
+              começou com um forte interesse em como a tecnologia pode
+              transformar ideias em realidades digitais. Desde então, venho me
+              dedicando a aprender e aprimorar minhas habilidades em
+              desenvolvimento web.
             </p>
             <AboutInfoSkills>
               <p>Linguagens e ferramentas:</p>
@@ -40,7 +35,6 @@ function About() {
                 <li>CSS</li>
                 <li>Javascript</li>
                 <li>React JS</li>
-                <li>NodeJs</li>
                 <li>Styled-componenets</li>
                 <li>Bootstrap</li>
                 <li>Git</li>
