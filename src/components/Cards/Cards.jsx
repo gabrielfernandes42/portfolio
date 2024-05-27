@@ -15,7 +15,7 @@ import {
   GitLink,
 } from "./styles";
 
-function Cards({ title, description, img, tags, link  }) {
+function Cards({ title, description, img, tags, link }) {
   return (
     <>
       <CardsContainer>
@@ -35,7 +35,13 @@ function Cards({ title, description, img, tags, link  }) {
                         <FaLink />
                       </a>
                     </ExternalLink>
-                    <GitLink></GitLink>
+                    {/* <GitLink>
+                      <ExternalLink>
+                        <a href={link} target="_blank" rel="noreferrer">
+                          <FaLink />
+                        </a>
+                      </ExternalLink>
+                    </GitLink> */}
                   </CardIcons>
                 </CardHeaderText>
               </CardHeader>
